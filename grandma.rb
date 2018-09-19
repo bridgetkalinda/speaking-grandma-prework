@@ -4,6 +4,9 @@ def speak_to_grandma(phrase)
     return "NO, NOT SINCE 1938!"
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
+elsif phrase == "I LOVE YOU GRANDMA!"
+      return "I LOVE YOU TOO PUMPKIN!"
+  
 # unless you shout it (type in all capitals).
 else
     return "HUH?! SPEAK UP, SONNY!"
